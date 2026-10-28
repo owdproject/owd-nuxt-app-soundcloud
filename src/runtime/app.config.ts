@@ -36,7 +36,7 @@ export default {
     },
   },
   commands: {
-    soundcloud: (app: IApplicationController, args: any) => {
+    soundcloud: (app: any, args: any) => {
       const url = args?._[1] || ''
       const forceNewWindow = args.new
       const doNotCheckUrlValidity = args.noCheck
