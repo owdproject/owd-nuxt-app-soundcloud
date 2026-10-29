@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-soundcloud-playground",
+  "name": "@owdproject/app-nuxt-soundcloud-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/app-soundcloud": "workspace:*",
+    "@owdproject/app-nuxt-soundcloud": "workspace:*",
     "nuxt": "^4.4.6",
-    "@owdproject/theme-nova": "^4.0.0-alpha.3"
+    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3"
   }
 }

@@ -1,8 +1,8 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nova',
-  apps: ['@owdproject/app-soundcloud'],
+  theme: '@owdproject/theme-nuxt-nova',
+  apps: ['@owdproject/app-nuxt-soundcloud'],
   systemBar: { enabled: true, startButton: true },
   about: {
     title: 'SoundCloud (playground)',
