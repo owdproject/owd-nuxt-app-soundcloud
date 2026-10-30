@@ -17,7 +17,7 @@ This app for Open Web Desktop provides a SoundCloud player with a rotating featu
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/app-nuxt-soundcloud
+pnpm desktop add @owdproject/nuxt-app-soundcloud
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ import { defineDesktopConfig } from '@owdproject/core'
 
 export default defineDesktopConfig({
   apps: [
-    '@owdproject/app-nuxt-soundcloud'
+    '@owdproject/nuxt-app-soundcloud'
   ],
   soundcloud: {
     galleryRotateIntervalMs: 8000,
