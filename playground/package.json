@@ -11,6 +11,6 @@
     "@owdproject/core": "^4.0.0-alpha.3",
     "@owdproject/nuxt-app-soundcloud": "workspace:*",
     "nuxt": "^4.4.6",
-    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3"
+    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3"
   }
 }
